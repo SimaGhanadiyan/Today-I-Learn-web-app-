@@ -8,30 +8,86 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class container>
-      <h1>today i learned</h1>
-      <ul>
-        <li>
-          <p>
-            "React is being developed by Meta (formerly facebook)"
-            <span>#technology#</span>
-          </p>
-        </li>
-        <li>
-          <p>
-            "Millennial dads spend 3 times as much time with their kids than
-            their fathers spent with them. In 1982, 43% of fathers had never
-            changed a diaper. Today, that number is down to 3%"
-            <span>#society#</span>
-          </p>
-        </li>
-        <li>
-          <p>
-            "Lisbon is the capital of Portugal"
-            <span></span>
-          </p>
-        </li>
-      </ul>
+    <div class="container">
+      <header>
+        <img
+          src="logo.png"
+          height="68px"
+          width="68px"
+          alt="today i leared logo"
+        />
+        <h1>today i learned</h1>
+      </header>
+      <form>
+        <input type="text" placeholder="share a fact with the world" />
+        <span>200</span>
+        <input type="text" placeholder="trustworthy spurce" />
+        <select>
+          <option value="">choose category</option>
+          <option value="technology">Technology</option>
+          <option value="science">Science</option>
+        </select>
+        <button>post</button>
+      </form>
+      <main>
+        <aside>
+          <ul>
+            <li><button>All</button></li>
+            <li><button>Technology</button></li>
+            <li><button>Science</button></li>
+          </ul>
+        </aside>
+        <section>
+          <ul>
+            <li>
+              <p>
+                "React is being developed by Meta (formerly facebook)"
+                <span>#technology#</span>
+                <a href="https://opensource.fb.com/" target="_blank"
+                  >(source)</a
+                >
+              </p>
+              <div>
+                <button>👍<strong> 24</strong></button>
+                <button>🤯 <strong> 9</strong></button>
+                <button>⛔️ <strong> 4</strong></button>
+              </div>
+            </li>
+            <li>
+              <p>
+                "Millennial dads spend 3 times as much time with their kids than
+                their fathers spent with them. In 1982, 43% of fathers had never
+                changed a diaper. Today, that number is down to 3%"
+                <span>#society#</span>
+                <a
+                  href="https://www.mother.ly/parenting/millennial-dads-spend-more-time-with-their-kids"
+                  target="_blank"
+                  >(source)</a
+                >
+              </p>
+              <div>
+                <button>👍<strong> 24</strong></button>
+                <button>🤯 <strong> 9</strong></button>
+                <button>⛔️ <strong> 4</strong></button>
+              </div>
+            </li>
+            <li>
+              <p>
+                "Lisbon is the capital of Portugal"
+                <span></span>
+                <a href="https://en.wikipedia.org/wiki/Lisbon" target="_blank"
+                  >(source)</a
+                >
+              </p>
+              <div>
+                <button>👍<strong> 24</strong></button>
+                <button>🤯 <strong> 9</strong></button>
+                <button>⛔️ <strong> 4</strong></button>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </main>
     </div>
     <script src="script.js"></script>
   </body>
