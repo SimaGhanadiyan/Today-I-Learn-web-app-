@@ -10,6 +10,7 @@ const CATEGORIES = [
 ];
 
 // color : #03001c , #301e67 , #5b8fb9 , #b6eada
+
 // color : #6F1AB6 , #3D1766 , #FF0032 , #CD0404
 const initialFacts = [
   {

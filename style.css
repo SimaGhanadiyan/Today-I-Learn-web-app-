@@ -1,6 +1,28 @@
-body {
-  background-color: #292524;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+body {
+  color: #fafaf9;
+  background-color: #292524;
+  text-transform: uppercase;
+  font-family: "Sono", sans-serif;
+  padding: 40px;
+}
+
+.header {
+  margin-bottom: 40px;
+}
+
+.factform {
+  background-color: #44403c;
+  margin-bottom: 40px;
+  padding: 16px 40px;
+  text-align: center;
+}
+
 h1 {
   font-size: 42px;
   text-transform: uppercase;
@@ -11,22 +33,21 @@ h1 {
 .fact {
   font-size: 20px;
   line-height: 1.4;
-  font-family: "Sono", sans-serif;
-  color: #fafaf9;
   background-color: #44403c;
+  margin-bottom: 16px;
+  padding: 16px 24px;
 }
 
 .tag {
   text-transform: uppercase;
   font-size: 14px;
   font-family: "Coiny", cursive;
-  color: #fafaf9;
+  padding-top: 3px;
+  padding-left: 10px;
+  padding-right: 10px;
+  /* color: #fafaf9; */
 }
 
 ul {
   list-style: none;
-}
-
-.factform {
-  background-color: #44403c;
 }
