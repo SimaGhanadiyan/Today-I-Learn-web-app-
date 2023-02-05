@@ -16,13 +16,10 @@
   <body>
     <div class="container">
       <header class="header">
-        <img
-          src="logo.png"
-          height="68px"
-          width="68px"
-          alt="today i leared logo"
-        />
-        <h1>Today I Learned</h1>
+        <div class="logo">
+          <img src="logo.png" alt="today i leared logo" />
+          <h1>Today I Learned</h1>
+        </div>
         <button>share a fact</button>
       </header>
       <form class="factform">
@@ -36,7 +33,7 @@
         </select>
         <button>post</button>
       </form>
-      <main>
+      <main class="main">
         <aside>
           <ul>
             <li><button>All</button></li>
@@ -49,12 +46,18 @@
             <li class="fact">
               <p>
                 "React is being developed by Meta (formerly facebook)"
-                <span class="tag">#technology#</span>
-                <a href="https://opensource.fb.com/" target="_blank"
+
+                <a
+                  href="https://opensource.fb.com/"
+                  target="_blank"
+                  class="source"
                   >(source)</a
                 >
               </p>
-              <div>
+              <span class="tag" style="background-color: blue"
+                >#technology#</span
+              >
+              <div class="vote">
                 <button>👍<strong> 24</strong></button>
                 <button>🤯 <strong> 9</strong></button>
                 <button>⛔️ <strong> 4</strong></button>
@@ -65,14 +68,20 @@
                 "Millennial dads spend 3 times as much time with their kids than
                 their fathers spent with them. In 1982, 43% of fathers had never
                 changed a diaper. Today, that number is down to 3%"
-                <span class="tag">#society#</span>
+
                 <a
                   href="https://www.mother.ly/parenting/millennial-dads-spend-more-time-with-their-kids"
                   target="_blank"
+                  class="source"
                   >(source)</a
                 >
+                <span
+                  class="tag"
+                  style="background-color: rgba(236, 216, 1, 0.904)"
+                  >#society#</span
+                >
               </p>
-              <div>
+              <div class="vote">
                 <button>👍<strong> 24</strong></button>
                 <button>🤯 <strong> 9</strong></button>
                 <button>⛔️ <strong> 4</strong></button>
@@ -81,12 +90,16 @@
             <li class="fact">
               <p>
                 "Lisbon is the capital of Portugal"
-                <span class="tag"></span>
-                <a href="https://en.wikipedia.org/wiki/Lisbon" target="_blank"
+
+                <a
+                  href="https://en.wikipedia.org/wiki/Lisbon"
+                  target="_blank"
+                  class="source"
                   >(source)</a
                 >
               </p>
-              <div>
+              <span class="tag"></span>
+              <div class="vote">
                 <button>👍<strong> 24</strong></button>
                 <button>🤯 <strong> 9</strong></button>
                 <button>⛔️ <strong> 4</strong></button>
