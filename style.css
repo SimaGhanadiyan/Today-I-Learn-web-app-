@@ -19,7 +19,7 @@ body {
 
 .header {
   margin-bottom: 40px;
-  background-color: red;
+  /* background-color: red; */
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -81,7 +81,7 @@ h1 {
   margin-left: auto;
 }
 
-.ul {
+ul {
   list-style: none;
 }
 
@@ -101,4 +101,34 @@ h1 {
 
 .source:hover .source:active {
   color: #3b82f6;
+}
+
+.btn {
+  border: none;
+  font-family: "Coiny", cursive;
+  line-height: 1;
+  text-transform: uppercase;
+  font-size: 17px;
+  padding: 16px 0 13px;
+  background-image: linear-gradient(135deg, #6f1ab6, #3d1766, #ff0032, #cd0404);
+  color: inherit;
+}
+
+.btn-large {
+  font-size: 20px;
+  padding: 20px 32px 17px;
+}
+
+.btn-all {
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+.btn-cat {
+  width: 100%;
+  /* background-image: none; */
+}
+
+.cat {
+  margin-bottom: 16px;
 }

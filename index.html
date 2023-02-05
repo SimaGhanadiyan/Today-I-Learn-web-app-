@@ -20,7 +20,7 @@
           <img src="logo.png" alt="today i leared logo" />
           <h1>Today I Learned</h1>
         </div>
-        <button>share a fact</button>
+        <button class="btn" class="btn-large">share a fact</button>
       </header>
       <form class="factform">
         <input type="text" placeholder="share a fact with the world" />
@@ -31,14 +31,18 @@
           <option value="technology">Technology</option>
           <option value="science">Science</option>
         </select>
-        <button>post</button>
+        <button class="btn" class="btn-large">post</button>
       </form>
       <main class="main">
         <aside>
           <ul>
-            <li><button>All</button></li>
-            <li><button>Technology</button></li>
-            <li><button>Science</button></li>
+            <li class="cat">
+              <button class="btn" class="btn-all">All</button>
+            </li>
+            <li class="cat">
+              <button class="btn" class="btn-cat">Technology</button>
+            </li>
+            <li class="cat"><button class="btn">Science</button></li>
           </ul>
         </aside>
         <section>
